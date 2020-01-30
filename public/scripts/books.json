@@ -1,0 +1,102 @@
+[
+  {
+    "id": "111aaa",
+    "author": "Dr Seuss",
+    "title": "The Cat in the Hat",
+    "cover": "assets/images/covers/cat-hat.png",
+    "pubDate": "1957-03-12",
+    "pages": 61,
+    "synopsis": "When in doubt, turn to the story of the cat that transformed a dull, rainy afternoon into a magical and just-messy-enough adventure.",
+    "rating": 4
+  },
+  {
+    "id": "222bbb",
+    "author": "Dr Seuss",
+    "title": "Green Eggs and Ham",
+    "cover": "assets/images/covers/green-eggs.png",
+    "pubDate": "1960-08-12",
+    "pages": 65,
+    "synopsis": "Sam-I-am is as persistent as a telemarketer, changing as many variables as possible in the hopes of convincing the nameless skeptic that green eggs and ham are a delicacy to be savored.",
+    "rating": 3
+  },
+  {
+    "id": "333ccc",
+    "author": "Dr Seuss",
+    "title": "There's a Wocket in my Pocket",
+    "cover": "assets/images/covers/wocket-pocket.png",
+    "pubDate": "1984-08-12",
+    "pages": 65,
+    "synopsis": "A young boy goes exploring in his house and finds an array of fun characters! Are you certain there’s a Jertain in the curtain? Or have you ever had a feeling there’s a Geeling on the ceiling?",
+    "rating": 5
+  },
+  {
+    "id": "444ddd",
+    "author": "Thomas Pynchon",
+    "title": "V",
+    "cover": "assets/images/covers/v.jpg",
+    "pubDate": "1963-05-16",
+    "pages": 492,
+    "synopsis": "In which Benny Profane, a schlemil and human yo-yo, gets to an apocheir.",
+    "rating": 4
+  },
+  {
+    "id": "555eee",
+    "author": "Thomas Pynchon",
+    "title": "The Crying of Lot 49",
+    "cover": "assets/images/covers/lot-49.jpg",
+    "pubDate": "1965-05-16",
+    "pages": 194,
+    "synopsis": "Oedipa Maas finds herself enmeshed in a worldwide conspiracy, meets some extremely interesting characters and attains a not inconsiderable amount of self-knowledge.",
+    "rating": 4
+  },
+  {
+    "id": "666fff",
+    "author": "Thomas Pynchon",
+    "title": "Gravity's Rainbow",
+    "cover": "assets/images/covers/gravitys-rainbow.jpg",
+    "pubDate": "1973-05-16",
+    "pages": 770,
+    "synopsis": "A few months after the Germans’ secret V-2 rocket bombs begin falling on London, British Intelligence discovers that a map of the city pinpointing the sexual conquests of one Lieutenant Tyrone Slothrop, U.S. Army, corresponds identically to a map showing the V-2 impact sites.",
+    "rating": 5
+  },
+  {
+    "id": "777ggg",
+    "author": "John Le Carré",
+    "title": "Tinker, Tailor, Soldier, Spy",
+    "cover": "assets/images/covers/tinker-tailor.jpg",
+    "pubDate": "1974-06-16",
+    "pages": 401,
+    "synopsis": "British Secret Service Agent George Smiley has a world-class problem. He has discovered a mole--a Soviet double agent who has managed to burrow his way up to the highest level of British Intelligence.",
+    "rating": 5
+  },
+  {
+    "id": "888hhh",
+    "author": "John Le Carré",
+    "title": "The Honourable Schoolboy",
+    "cover": "assets/images/covers/honourable-schoolboy.jpg",
+    "pubDate": "1977-05-16",
+    "pages": 611,
+    "synopsis": "The mole has been eliminated, but the damage wrought has brought the British Secret Service to its knees. Given the charge of the gravely compromised Circus, George Smiley embarks on a campaign to uncover what Moscow Centre most wants to hide.",
+    "rating": 5
+  },
+  {
+    "id": "999iii",
+    "author": "John Le Carré",
+    "title": "Smiley's People",
+    "cover": "assets/images/covers/smileys-people.jpg",
+    "pubDate": "1979-11-16",
+    "pages": 468,
+    "synopsis": "A very junior agent answers Vladimir’s call, but it could have been the Chief of the Circus himself. No one at the British Secret Service considers the old spy to be anything except a senile has-been who can’t give up the game—until he’s shot in the face at point-blank range.",
+    "rating": 5
+  },
+  {
+    "id": "101010jjj",
+    "author": "Karl Marx",
+    "title": "Das Kapital",
+    "cover": "assets/images/covers/das-kapital.jpg",
+    "pubDate": "1867-09-14",
+    "pages": 908,
+    "synopsis": "A critical analysis of political economy, meant to reveal the contradictions of the capitalist mode of production, how it was the precursor of the socialist mode of production and of the class struggle rooted in the capitalist social relations of production.",
+    "rating": 5
+  }
+]

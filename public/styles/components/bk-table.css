@@ -1,0 +1,46 @@
+.bk-table {
+  max-width: 1000px;
+  margin: 0rem auto;
+  position: relative;
+  top: 1rem;
+  width: 90%;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+  background-color: transparent;
+  max-height: 64%;
+  overflow: scroll;
+}
+
+.bk-table__header {
+  display: flex;
+  padding: 0.3rem 1rem;
+  border: 1px solid rgb(33, 34, 80);
+  border-bottom: none;
+  background: rgb(56, 57, 114);
+  color: white;
+}
+
+.bk-table__author {
+  width: 35%;
+  margin: auto;
+}
+
+.bk-table__title {
+  width: 65%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .bk-table {
+    max-height: 76%;
+  }
+  .bk-table__header {
+    padding: 0.3rem 2rem;
+  }
+  .bk-table__author {
+    width: 25%;
+  }
+  .bk-table__title {
+    width: 75%;
+  }
+}

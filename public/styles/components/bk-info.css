@@ -1,0 +1,135 @@
+.bk-info {
+  background: #f4f4f4;
+  border: 1px solid rgb(23, 25, 48);
+  border-top: none;
+  margin: auto;
+  padding: 0.5rem;
+  display: none;
+}
+
+.bk-info--open {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bk-info__header {
+  border: 1px solid rgb(23, 25, 48);
+  border-top: none;
+  display: flex;
+  font-size: 0.7rem;
+  padding: 0.2rem 1rem;
+  background: rgb(106, 111, 177);
+  color: white;
+  transition: .3s ease;
+}
+
+.bk-info__header--selected {
+  background: #8b90ce;
+  border-bottom: none;
+}
+
+.bk-info__header:hover {
+  background: #8b90ce;
+}
+
+.bk-info__author {
+  font-size: 0.9rem;
+  width: 35%;
+  margin: auto;
+}
+
+.bk-info__title {
+  font-size: 0.9rem;
+  width: 65%;
+  margin: auto;
+}
+
+.bk-info__carat {
+  font-size: 1.3rem;
+  margin: auto;
+  padding: 0.5rem 0rem;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.bk-info__carat--selected {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.bk-info__cover-rating {
+  margin: 0rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.bk-info__cover {
+  max-width: 150px;
+  padding: 1rem;
+}
+
+.bk-info__rating {
+  padding: 0.5rem;
+}
+
+.bk-info__star {
+  color: lightgray;
+}
+
+.bk-info__star--checked {
+  color: rgb(96, 106, 192);
+}
+
+.bk-info__copy {
+  margin: 0rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bk-info__copy--bold {
+  font-weight: 700;
+}
+
+.bk-info__buttons {
+  margin: 1rem;
+  padding: 1rem;
+} 
+
+.bk-info__author, .bk-info__title, .bk-info__pubDate, .bk-info__pages, .bk-info__synopsis {
+  border: none;
+  background: none;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.5rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .bk-info {
+    flex-direction: row;
+  }
+  .bk-info__header {
+    padding: 0.2rem 2rem;
+  }
+  .bk-info__copy {
+    align-items: left;
+    text-align: left;
+  }
+  .bk-info__author {
+    font-size: 1.1rem;
+    width: 25%;
+  }
+  .bk-info__title {
+    font-size: 1.1rem;
+    width: 75%;
+  }
+}
